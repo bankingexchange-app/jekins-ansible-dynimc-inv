@@ -2,8 +2,9 @@ provider "aws"{
 region = "ap-southeast-2"
 }
 
-resource "aws_instance" "AWSInstances" {
-     ami = "ami-0cbf852f55ea404a6"
+resource = "aws_instance" "AWSInstances" {
+architecture = "arm64"
+     #ami = "ami-0cbf852f55ea404a6"
 	 instance_type = "t2.micro"
 	 key_name = "devops"
 	 security_groups = ["launch-wizard-2"]
