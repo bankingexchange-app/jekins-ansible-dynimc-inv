@@ -3,7 +3,7 @@ region = "ap-southeast-2"
 }
 
 resource "aws_instance" "AWSInstance" {
-     ami = "ami-0cbf852f55ea404a6"
+     ami = "ami-0767b7d50e423acfe"
 	 instance_type = "t2.micro"
 	 key_name = "devops"
 	 security_groups = ["launch-wizard-2"]
