@@ -1,6 +1,6 @@
 provider "aws"{
-aws_access_key: "AKIATP6LCA6BRKOCZN6Y"
-aws_secret_key: "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"
+aws_access_key = "AKIATP6LCA6BRKOCZN6Y"
+aws_secret_key = "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"
 region = "ap-southeast-2"
 }
 
